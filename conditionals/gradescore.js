@@ -1,5 +1,5 @@
 
-const score = 59;
+const score = 85;
 
 if(score >= 90 && score <=100){
     console.log("you got A")
