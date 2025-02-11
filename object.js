@@ -1,45 +1,45 @@
-// const colors = {
-//     red: "#ff0000",
-//     green: "#00ff00",
-//     blue: "#0000ff",
-//     "golden rod": '#daa520'
-// };
+const colors = {
+    red: "#ff0000",
+    green: "#00ff00",
+    blue: "#0000ff",
+    "golden rod": '#daa520'
+};
 
-// console.log(colors["golden rod"]);
+console.log(colors["golden rod"]);
 
-// // add property and value into a object
-// const car = {
-//     make: "Toyota",
-//     model: "Corolla",
-//     year: 2020
-// };
+// add property and value into a object
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
 
-// car.passengerCapacity = 5;
-// console.log(car);
+car.passengerCapacity = 5;
+console.log(car);
 
-// // display a nested property
+// display a nested property
 
-// const student = {
-//     name: "Hamim Sakep",
-//     id: 5421,
-//     physics: {
-//         subject: "HSC Physics",
-//         author: "Shahjahan Tapan",
-//         marks: 30
-//     }
-// };
-// console.log(student.physics.marks);
+const students = {
+    name: "Hamim Sakep",
+    id: 5421,
+    physics: {
+        subject: "HSC Physics",
+        author: "Shahjahan Tapan",
+        marks: 30
+    }
+};
+console.log(students.physics.marks);
 
-// // count the number of property
+// count the number of property
 
-// let student = {
-//     name: 'Ariana Grande',
-//     age: 21,
-//     city: 'Gaibandha',
-//     isStudent: true
-// };
-// let propertyCount = Object.keys(student);
-// console.log(propertyCount);
+let student = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+let propertyCount = Object.keys(student);
+console.log(propertyCount);
 
 // print key value pairs by looping with type
 
